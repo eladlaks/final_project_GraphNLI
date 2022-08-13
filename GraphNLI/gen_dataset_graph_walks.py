@@ -82,7 +82,7 @@ for file in files:
                 child_edges[key] = [node_id]
 
     for node_id in data.node.keys():
-        sentences = ['']*4
+        sentences = ['']*6
 
         # Required for biased root-seeking Random Walk.
         sentences, label = biased_random_walk(sentences, data, node_id, child_edges, 3)
@@ -100,8 +100,8 @@ random.shuffle(dataset_samples)
 
 train_samples = dataset_samples[ : math.ceil(0.8*len(dataset_samples))]
 dev_samples = dataset_samples[math.ceil(0.8*len(dataset_samples)) : ]
-pd.DataFrame(train_samples, columns=['sent1', 'sent2', 'sent3', 'sent4', 'label']).to_csv('../train_graph_random_walk.csv', index=False)
-pd.DataFrame(dev_samples, columns=['sent1', 'sent2', 'sent3', 'sent4', 'label']).to_csv('../test_graph_random_walk.csv', index=False)
+pd.DataFrame(train_samples, columns=['sent1', 'sent2', 'sent3', 'sent4','sent5','sent6', 'label']).to_csv('../train_graph_random_walk.csv', index=False)
+pd.DataFrame(dev_samples, columns=['sent1', 'sent2', 'sent3', 'sent4','sent5','sent6', 'label']).to_csv('../test_graph_random_walk.csv', index=False)
 
 print('#train samples:', len(train_samples))
 print('#dev samples:', len(dev_samples))

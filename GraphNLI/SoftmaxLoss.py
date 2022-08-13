@@ -47,7 +47,7 @@ class SoftmaxLoss(nn.Module):
 
     def forward(self, sentence_features: Iterable[Dict[str, Tensor]], labels: Tensor):
         reps = [self.model(sentence_feature)['sentence_embedding'] for sentence_feature in sentence_features]
-        rep_a, rep_b = self.mean_aggregate(reps)
+        rep_a, rep_b = self.weighted_aggregate(reps)
 
         vectors_concat = []
         if self.concatenation_sent_rep:

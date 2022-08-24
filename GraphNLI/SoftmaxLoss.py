@@ -85,7 +85,7 @@ class SoftmaxLoss(nn.Module):
         v = reps[0]
         prev_weight = 1
         if(len(reps)>2):
-            for i in range(1, 5):
+            for i in range(1, len(reps)):
                 weight = 0.75 * prev_weight
                 reps[i] = torch.mul(reps[i], weight)
                 prev_weight = prev_weight - weight

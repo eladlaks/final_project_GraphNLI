@@ -91,7 +91,7 @@ class SoftmaxLoss(nn.Module):
                 prev_weight = prev_weight - weight
             u = torch.sum(torch.stack(reps[1:]), dim=0)
         else:
-            u = reps[0]
+            u = reps[1]
             
         return u, v
 

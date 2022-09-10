@@ -98,14 +98,14 @@ class SoftmaxLoss(nn.Module):
     def weighted_aggregate(self, reps):
         v = reps[0]
         prev_weight = 1
-        if(len(reps)>2):
+        if(len(reps)>1):
             for i in range(1, len(reps)):
                 weight = 0.75 * prev_weight
                 reps[i] = torch.mul(reps[i], weight)
                 prev_weight = prev_weight - weight
             u = torch.sum(torch.stack(reps[1:]), dim=0)
         else:
-            u = reps[1]
+            u = reps[0]
             
         return u, v
 

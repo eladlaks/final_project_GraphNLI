@@ -239,16 +239,10 @@ Feel free to open issues and contact me with any question :+1:
 
 # Credits
 
-You shall not misuse the information to gain unauthorised access. However you may try out these hacks on your own computer at your own risk. Performing hack attempts (without permission) on computers that you do not own is illegal.
+[orginal paper](https://paperswithcode.com/paper/graphnli-a-graph-based-natural-language)
+
 [orginal github page](https://github.com/socsys/graphnli)
 
-@inproceedings{agarwal2022graphnli,
-  title={GraphNLI: A Graph-based Natural Language Inference Model for Polarity Prediction in Online Debates},
-  author={Agarwal, Vibhor and Joglekar, Sagar and Young, Anthony P and Sastry, Nishanth},
-  booktitle={Proceedings of the ACM Web Conference 2022},
-  pages={2729--2737},
-  year={2022}
-}
 
 Enjoy :metal:
 

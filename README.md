@@ -50,8 +50,7 @@ An example of the arguments made in a Kialo debate:
   <img src="https://github.com/eladlaks/final_project_GraphNLI/blob/main/images/pro_life_pro_choice_arguments.png">
 </div>
 
-An example of the arguments made in a Kialo debate:
-
+the model architecture
 <div align="center">
   <img src="https://github.com/eladlaks/final_project_GraphNLI/blob/main/images/GraphNLIArch.png">
 </div>

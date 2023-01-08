@@ -1,7 +1,6 @@
 # Final Project
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
 
 # Table of contents
 - [Table of contents](#table-of-contents)
@@ -35,13 +34,13 @@ An example of the arguments made in a Kialo debate:
   <img src="https://github.com/eladlaks/final_project_GraphNLI/blob/main/images/pro_life_pro_choice_arguments.png">
 </div>
 
-the model architecture
+The model architecture
 <div align="center">
   <img src="https://github.com/eladlaks/final_project_GraphNLI/blob/main/images/GraphNLIArch.png">
 </div>
   <br><br>
 
-  # our code
+  # Our Code
   
 - Imports and install all reqirments
 - Loads the data 
@@ -54,13 +53,21 @@ the model architecture
 [link to the colab notebook ](https://drive.google.com/file/d/19l-EeaonCjSV2iajzYFCMypWmkRZ1YzV/view?usp=sharing)
 
 # Installation
-
-### Data set
+## requirements
+  -python==3.6.9
+  -matplotlib==3.3.4
+  -numpy==1.19.5
+  -pandas==1.1.5
+  -sentence-transformers==2.1.0
+  -torch==1.9.1
+  -transformers==4.11.3
+  
+## Data set
 - Get permission to use the dataset.
 - Save it in your drive as requested in the colab notebook.
 <br><br>
 
-# results
+# Results
 we succeded to improve the anchor paper as mention in the report.
 the models results
 <div align="center">
@@ -75,7 +82,7 @@ our best model VS anchor paper model
 
 # Contact
 
-Feel free to open issues and contact me with any question :+1:
+Feel free to contact me with any question :+1:
 
 <p align="center">
 

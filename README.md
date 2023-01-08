@@ -3,7 +3,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 # Table of contents
-- [Table of contents](#table-of-contents)
+- [Table of contents](#table-of-contents) 
 - [About The Project](#about-the-project)
 - [Our code](#our-code)
 - [Installation](#installation)
@@ -54,7 +54,7 @@ The model architecture
 [link to the colab notebook ](https://drive.google.com/file/d/19l-EeaonCjSV2iajzYFCMypWmkRZ1YzV/view?usp=sharing)
 
 # Installation
-## requirements
+  ## requirements
   -python==3.6.9
   -matplotlib==3.3.4
   -numpy==1.19.5

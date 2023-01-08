@@ -1,27 +1,5 @@
 # final project
 
-link to the colab notebook 
-{https://drive.google.com/file/d/19l-EeaonCjSV2iajzYFCMypWmkRZ1YzV/view?usp=sharing}
-
-link to the full paper we wrote about the project{https://github.com/eladlaks/final_project_GraphNLI/blob/main/graphNLI_report.pdf}
-
-## About The Project
-
-## the dataset
-The data set contains 324373 posts and replies, each one of them is a part of the ”conversation tree”. we split the data into train(80%) and test (20%). each conversation tree
-represents the global context, of the local context between 2 sentences in the tree.
-
-
-## the results
-we achieved 82.97% Accuracy compared to 82.41% of the orginal paper result.
-
-## using the same methon to detect hate-speech
-we achieved 92.6% Accuracy on "A Benchmark Dataset for Learning to Intervene
-in Online Hate Speech”.
-
-
-
-
 <p align="center"><img width=20% src="./images/logo.png"></p>
 <p align="center"><img width=40% src="./images/title.png"></p>
 
@@ -66,7 +44,17 @@ in Online Hate Speech”.
    ## Introduction to the orginal paper
    The "GraphNLI" paper addresses part of the problem of hate or misinformative posts in public discussions on forums. It presents a method called "GraphNLI" which takes into account the context of all replies in a discussion, not just the reply and its corresponding post, to classify whether a reply is supporting or attacking the post it is replying to. This method was found to be the most effective at classifying the polarity of replies when compared to other NLP models and methods. It is based on SBERT using RoBERTa and combines pooling and aggregation of results to create the final embedding vector that is fed into a Softmax classifier.
 
+An example of the arguments made in a Kialo debate:
 
+<div align="center">
+  <img src="https://github.com/eladlaks/final_project_GraphNLI/blob/main/images/pro_life_pro_choice_arguments.png">
+</div>
+
+An example of the arguments made in a Kialo debate:
+
+<div align="center">
+  <img src="https://github.com/eladlaks/final_project_GraphNLI/blob/main/images/GraphNLIArch.png">
+</div>
   <br><br>
 
   
@@ -80,6 +68,7 @@ in Online Hate Speech”.
  
 <br><br>
 <br><br>
+[link to the colab notebook ](https://drive.google.com/file/d/19l-EeaonCjSV2iajzYFCMypWmkRZ1YzV/view?usp=sharing)
 
 # Installation and Configuration
 

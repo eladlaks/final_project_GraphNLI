@@ -76,7 +76,7 @@ the model architecture
 - Save it in your drive as requested in the colab notebook.
 <br><br>
 
-### AWS
+# results
 
 
 <br><br>

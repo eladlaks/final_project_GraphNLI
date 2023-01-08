@@ -80,7 +80,7 @@ the model architecture
 we succeded to improve the anchor paper as mention in the report.
 the models results
 <div align="center">
-  <img src="https://github.com/eladlaks/final_project_GraphNLI/blob/main/images/results.jpg">
+  <img src="https://github.com/eladlaks/final_project_GraphNLI/blob/main/images/results.JPG">
 </div>
 our best model VS anchor paper model
 <div align="center">

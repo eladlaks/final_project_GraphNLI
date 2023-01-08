@@ -17,15 +17,11 @@
 # Table of contents
 - [Table of contents](#table-of-contents)
 - [About The Project](#about-the-project)
-- [Installation and Configuration](#installation-and-configuration)
-    - [Mailgun](#mailgun)
-    - [AWS](#aws)
-    - [Lazy-Wifi](#lazy-wifi)
-      - [Docker](#docker)
-      - [Local](#local)
-- [Usage](#usage)
+- [our code](#our code)
+- [Installation](#installation)
+- [results](#results)
 - [Contact](#contact)
-- [Disclaimer](#disclaimer)
+- [credits](#credits)
   
 <br><br>
 
@@ -56,8 +52,7 @@ the model architecture
 </div>
   <br><br>
 
-  
-   ## our code
+  # our code
   
 - Imports and install all reqirments
 - Loads the data 

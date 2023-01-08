@@ -96,9 +96,9 @@ Feel free to open issues and contact me with any question :+1:
 
 # Credits
 
-[orginal paper](https://paperswithcode.com/paper/graphnli-a-graph-based-natural-language)
+[anchor paper](https://paperswithcode.com/paper/graphnli-a-graph-based-natural-language)
 
-[orginal github page](https://github.com/socsys/graphnli)
+[anchor github page](https://github.com/socsys/graphnli)
 
 
 Enjoy :metal:

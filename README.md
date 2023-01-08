@@ -1,9 +1,5 @@
 # Final Project
 
-<p align="center"><img width=20% src="./images/logo.png"></p>
-<p align="center"><img width=40% src="./images/title.png"></p>
-
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
 

@@ -5,11 +5,11 @@
 # Table of contents
 - [Table of contents](#table-of-contents)
 - [About The Project](#about-the-project)
-- [our code](#our-code)
+- [Our code](#our-code)
 - [Installation](#installation)
-- [results](#results)
+- [Results](#results)
 - [Contact](#contact)
-- [credits](#credits)
+- [Credits](#credits)
   
 <br><br>
 
@@ -43,6 +43,7 @@ The model architecture
   # Our Code
   
 - Imports and install all reqirments
+
 - Loads the data 
 - trains anchor paper model architecture 
 - trains our model architecture

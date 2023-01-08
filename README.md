@@ -1,4 +1,4 @@
-# final project
+# Final Project
 
 <p align="center"><img width=20% src="./images/logo.png"></p>
 <p align="center"><img width=40% src="./images/title.png"></p>
@@ -77,7 +77,15 @@ the model architecture
 <br><br>
 
 # results
-
+we succeded to improve the anchor paper as mention in the report.
+the models results
+<div align="center">
+  <img src="https://github.com/eladlaks/final_project_GraphNLI/blob/main/images/results.jpg">
+</div>
+our best model VS anchor paper model
+<div align="center">
+  <img src="https://github.com/eladlaks/final_project_GraphNLI/blob/main/images/accuracy.png">
+</div>
 
 <br><br>
 

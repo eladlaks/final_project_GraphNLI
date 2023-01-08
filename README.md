@@ -6,29 +6,6 @@ link to the colab notebook
 link to the full paper we wrote about the project{https://github.com/eladlaks/final_project_GraphNLI/blob/main/graphNLI_report.pdf}
 
 ## About The Project
-in this project we took published paper(GraphNLI) restore the outcome by building the model and training it. 
-then we founded way to improve the accuracy and used the model archicture for diffrent problem - hate-speech detector. 
-
-## introduction
-
-Talk-backs and debates of users on public discussion on forums can escalate into hate or
-misinformative posts.To be able to tackle or understand those posts the ”GraphNLI”
-paper tries to classify whether a reply is supporting or attacking the post it is replying to.
-The problem is that when trying to identify the polarity between post and reply, the reply
-to a post may be based on an external context beyond the post. to explain the problem
-the paper defines the ”local context” as the context between a post and its reply, and
-”global context” as the context to all the other replies before and after the local context,
-including the local context. The paper suggests a method to overcome the problem using
-the other replies and the replies to the reply from the ’root post’. They suppose it will
-give a lot more information to decide whether the reply is supporting or attacking the
-post it is replying to. They named this method ”GraphNLI”. They compared several
-NLP models and methods on a data-set from Kialo - a debate web, where every time
-user uploads a reply to a post he first labels his reply with an attack/support flag. All
-the methods based on GraphNLI were better than the others, and the best one was
-”GraphNLI: Root-seeking Graph Walk + Weighted Avg”. It was inspired based on SBERT using RoBERTa, Pooling, and aggregation between the results making the final
-embedding vector which is fed into Softmax-classifier in the end. The specialty in this
-method is the way the graph walks considering all the ”tree” of replies and not only the
-reply and its post(considering the global context).
 
 ## the dataset
 The data set contains 324373 posts and replies, each one of them is a part of the ”conversation tree”. we split the data into train(80%) and test (20%). each conversation tree
@@ -83,9 +60,16 @@ in Online Hate Speech”.
   <img src="./images/docker_logo.png" alt="Docker logo" width=100 height=80>
 </div>
   <br></br>
-  Lazy-Wifi is an automated wifi attack tool that makes your life easier regarding to the entire brute force attack surface.
-  This project was built in order to connect the Scanning, Handshake capture and Brute force process of the basic and known phase of wifi attacking.
+  In this project we took a published paper(GraphNLI) restored the outcome by building the model and training it. 
+  then we improved the model and used the new model archicture for diffrent problem - hate-speech detector. 
+
+   ## Introduction to the orginal paper
+   The "GraphNLI" paper addresses part of the problem of hate or misinformative posts in public discussions on forums. It presents a method called "GraphNLI" which takes into account the context of all replies in a discussion, not just the reply and its corresponding post, to classify whether a reply is supporting or attacking the post it is replying to. This method was found to be the most effective at classifying the polarity of replies when compared to other NLP models and methods. It is based on SBERT using RoBERTa and combines pooling and aggregation of results to create the final embedding vector that is fed into a Softmax classifier.
+
+
   <br><br>
+
+  
   The following happens when running this automation:
   
 - Scans for surrounding access points.
@@ -246,16 +230,27 @@ Feel free to open issues and contact me with any question :+1:
 
 <p align="center">
 
-  [![Email](https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:tomp12@protonmail.com)
-  [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tom-paz-906788226/)
-  [![Tweet](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/tomp332)
-  [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tomp332)
+  [![Email](https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:eladlakss@gmail.com)
+  [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/elad-laks/)
+  [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/eladlaks)
 </p>
 
 <br><br>
 
-# Disclaimer
+# Credits
 
 You shall not misuse the information to gain unauthorised access. However you may try out these hacks on your own computer at your own risk. Performing hack attempts (without permission) on computers that you do not own is illegal.
+[orginal github page](https://github.com/socsys/graphnli)
+
+@inproceedings{agarwal2022graphnli,
+  title={GraphNLI: A Graph-based Natural Language Inference Model for Polarity Prediction in Online Debates},
+  author={Agarwal, Vibhor and Joglekar, Sagar and Young, Anthony P and Sastry, Nishanth},
+  booktitle={Proceedings of the ACM Web Conference 2022},
+  pages={2729--2737},
+  year={2022}
+}
 
 Enjoy :metal:
+
+
+

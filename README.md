@@ -15,12 +15,7 @@
 
 # About The Project
 
-<div>
-  <img src="./images/wifi_logo.svg" alt="Wifi logo" width=130 height=60>
-  <img src="./images/aws_logo.png" alt="Aws logo" width=100 height=80>    
-  <img src="./images/mailgun_logo.png" alt="Mailgun logo" width=150 height=60>
-  <img src="./images/docker_logo.png" alt="Docker logo" width=100 height=80>
-</div>
+
   <br></br>
   In this project we took a published paper(GraphNLI) restored the outcome by building the model and training it. 
   then we improved the model and used the new model archicture for diffrent problem - hate-speech detector. 

@@ -80,7 +80,7 @@ our best model VS anchor paper model
 
 # Contact
 
-Feel free to contact me with any question :+1:
+Feel free to contact us with any question :+1:
 
 <p align="center">
 

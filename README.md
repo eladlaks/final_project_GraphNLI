@@ -17,7 +17,7 @@
 # Table of contents
 - [Table of contents](#table-of-contents)
 - [About The Project](#about-the-project)
-- [our code](#our code)
+- [our code](#our-code)
 - [Installation](#installation)
 - [results](#results)
 - [Contact](#contact)
@@ -64,7 +64,7 @@ the model architecture
 <br><br>
 [link to the colab notebook ](https://drive.google.com/file/d/19l-EeaonCjSV2iajzYFCMypWmkRZ1YzV/view?usp=sharing)
 
-# Installation and Configuration
+# Installation
 
 ### Data set
 - Get permission to use the dataset.

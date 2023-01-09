@@ -51,14 +51,14 @@ The model architecture
 [link to the colab notebook ](https://drive.google.com/file/d/19l-EeaonCjSV2iajzYFCMypWmkRZ1YzV/view?usp=sharing)
 
 # Installation
-  ## requirements
+  ## requirements{"
   -python==3.6.9
   -matplotlib==3.3.4
   -numpy==1.19.5
   -pandas==1.1.5
   -sentence-transformers==2.1.0
   -torch==1.9.1
-  -transformers==4.11.3
+  -transformers==4.11.3"}
   
 ## Data set
 - Get permission to use the dataset.
